@@ -1,4 +1,4 @@
-let time =30
+let time =10
 const timer = document.getElementById('time');
 const interval = setInterval(()=>{
     time--;
