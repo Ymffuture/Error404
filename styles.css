@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: red;
+}
+.links{
+ padding: 10px;
+}
+.links a{
+    text-decoration: none;
+    background: black;
+    padding: 8px;
+    border-radius: .6em;
+    gap: 10px;
+    color: aliceblue;
+}
+.links a:hover{
+    text-decoration: none;
+    background: linear-gradient( 45deg ,black,gray,rgba(255, 255, 255, 0.911));
+    color: rgb(255, 255, 255);
+  
+}
+h1{
+    font-size: 8em;
+    background: linear-gradient(black,gray,rgba(255, 255, 0, 0.315));
+    padding: 8px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    text-shadow: 12px 30px 15px red;
+}
+h1:hover{
+    text-shadow: 12px 30px 25px red;
+}
+p{
+    color: rgb(179, 179, 179);
+    font-size: 1.5rem;
+}
+.container{
+    /* background: rgb(228, 4, 4); */
+    padding: 30px;
+}
+a:visited{
+    color: rgb(226, 185, 0);
+}
+a:active{
+    color: rgb(38, 0, 255);
+}
+[href="tel:+27634414863"]{
+    border: 2px rgb(0, 0, 0) solid;
+    background: red !important;
+}
+
+.tooltip {
+    position: relative; /* helps position the tooltip content */
+    border-bottom: 1px solid black;
+  }
+  .tooltip-content {
+    color: white;
+    background: black;
+    padding: 3px;
+    border-radius: 5px;
+    opacity: 0; /* hides the tooltip content */
+    transition: .3s all;
+  
+    /* positions the tooltip content */
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    width: 200px;
+    margin-left: -55px; /* (width / 2) x -1 */
+    left: 00%;
+    top: -250%; /* to the top */
+  }
+  .tooltip:hover > .tooltip-content {
+    opacity: 1; /* shows the tooltip content on mouse over */
+  }
+  .tooltip > .tooltip-content::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-top-color: rgb(0, 0, 0);
+  }
+  .time{
+    font-size: 14px;
+    color: rgb(247, 247, 250);
+    
+  }
+  #time{
+    animation: glow 2s infinite;
+    font-size: 20px;
+    
+  }
+  @keyframes glow {
+    0%{
+       
+        color: rgb(21, 255, 0);
+    }
+    100%{
+       
+        color: rgb(255, 255, 255);
+    }
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+   
+    background: black;
+    width: 100%;
+  }
+  #footer {
+    font-size: 14px;
+    cursor: pointer;
+  }
+  code{
+    color: aliceblue;
+  }
