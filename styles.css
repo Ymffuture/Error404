@@ -34,7 +34,7 @@ h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    text-shadow: 12px 30px 15px red;
+    text-shadow: 12px 30px 15px white;
 }
 h1:hover{
     text-shadow: 12px 30px 25px white ;
@@ -104,11 +104,11 @@ a:active{
   @keyframes glow {
     0%{
        
-        color: rgb(21, 255, 0);
+        color: gray;
     }
     100%{
        
-        color: rgb(255, 255, 255);
+        color: black;
     }
   }
   footer{
