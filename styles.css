@@ -56,6 +56,7 @@ a:active{
 [href="tel:+27634414863"]{
     border: 2px rgb(0, 0, 0) solid;
     background: white !important;
+    color:black ;
 }
 
 .tooltip {
