@@ -13,12 +13,12 @@ const interval = setInterval(()=>{
 
 function footerText(){
     let footer = document.getElementById('footer');
-    footer.style.color = '#555';
+    footer.style.color = 'white';
     window.location.href = 'info.html';
 }
 function backText(){
     let footer = document.getElementById('footer');
-    footer.style.color = '#555';
+    footer.style.color = 'white';
     window.location.href = 'index.html';
 }
 document.addEventListener("DOMContentLoaded", () => {
